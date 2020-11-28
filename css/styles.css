@@ -1,5 +1,19 @@
+/* colors
+#e0ebe8
+#45b29a
+#4ab19a
+#3e9c87
+#21564b
+
+#f4a0a0
+#f6d546
+*/
+
+/* * * * * * * * * * * TAG SELECTOR * * * * * * * * * */
+
 body {
-    background-color: #F3EAC2;
+    font-family: brandon-grotesque,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;;
+    background-color: #e0ebe8;
 }
 
 hr {
@@ -8,15 +22,19 @@ hr {
     border-left-style: none;
     border-bottom-style: none;
     border-width: 5px;
-    border-color: #9AD3BC;
+    border-color: #3e9c87; 
     height: 0px;
     width: 7%;
 }
 
 h1 {
-    color: #EC524B;
+    color: #3e9c87;
 }
 
 h3 {
-    color: #EC524B;
+    color: #3e9c87;
 }
+
+/* * * * * * * * * * * CLASS SELECTOR * * * * * * * * * */
+
+/* * * * * * * * * * * ID SELECTOR * * * * * * * * * */
