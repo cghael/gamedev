@@ -1,26 +1,29 @@
 body {
     margin: 0;
     text-align: center;
-    font-family: 'Share Tech Mono', monospace;
+    font-family: 'Cutive Mono', monospace;
 }
 
 h1 {
-    margin-top: 0px;
+    margin: 20px auto 0px auto;
     color: #FFE3D8;
-    font-size: 50px;
+    font-size: 4rem;
     font-family: 'Nerko One', monospace;
 }
 
 p {
-    color: #FFE3D8;
+    color: #0A043C;
 }
 
 h2 {
-    font-family: 'Cutive Mono', monospace;
+    color: #0A043C;;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 2.5rem;
 }
 
 h3 {
-    font-family: 'Cutive Mono', monospace;
+    color: #0A043C;
+    font-family: 'Share Tech Mono', monospace;
 }
 
 /* * * * * * * * * * CLASS SHEETS * * * * * * * * * */
@@ -34,10 +37,26 @@ h3 {
     padding-top: 100px;
 }
 
+.h3-top {
+    color: #FFE3D8;
+}
+
 .middle-container {
 }
 
 .bottom-container {
+    background-color: #03506F;
+    margin-bottom: 0px;
+}
+
+.bottom-p {
+    color: #BBBBBB;
+    margin-bottom: 0px;
+}
+
+.footer-link {
+    color: #BBBBBB;
+    font-size: 1.5rem;
 }
 
 .bottom-cloud {
@@ -56,7 +75,16 @@ h3 {
 
 }
 
-.hello {
+.project-row {
+    margin-bottom: 30px;
+}
+
+.middle-img {
     height: 150px;
-    margin-top: 50px;
+    margin-top: 20px;
+}
+
+.middle-p {
+    display: inline-block;
+    width: 50%;
 }
