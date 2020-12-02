@@ -41,6 +41,15 @@ hr {
     width: 7%;
 }
 
+a {
+    text-decoration: none;
+    margin: 20px;
+}
+
+a:hover {
+    font-weight: bolder;
+}
+
 /* * * * * * * * * * CLASS SHEETS * * * * * * * * * */
 
 .top-container {
@@ -63,6 +72,7 @@ hr {
 
 .bottom-container {
     background-color: #03506F;
+    padding: 20px 0;
     margin-bottom: 0px;
 }
 
@@ -135,16 +145,14 @@ hr {
 
 .btn {
     margin: 30px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    border-radius: 20px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
     color: #FFFFFF;
     font-size: 16px;
     padding: 16px;
     background-color: #03506F;
-    -webkit-box-shadow: 1px 1px 7px 0 #000000;
-    -moz-box-shadow: 1px 1px 7px 0 #000000;
-    box-shadow: 1px 1px 7px 0 #000000;
+
     text-shadow: 1px 1px 20px #000000;
     text-decoration: none;
     display: inline-block;
@@ -160,9 +168,9 @@ hr {
     background-image: -ms-linear-gradient(top, #0379A7, #036288);
     background-image: -o-linear-gradient(top, #0379A7, #036288);
     background-image: -webkit-gradient(to bottom, #0379A7, #036288);
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    border-radius: 20px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
     text-decoration: none;
  }
 
