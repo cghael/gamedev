@@ -1,47 +1,64 @@
+/* * * * * * * * * * TAG SHEETS * * * * * * * * * */
+
 body {
+    font-family: 'Cutive Mono', monospace;
     margin: 0;
     text-align: center;
-    font-family: 'Cutive Mono', monospace;
 }
 
 h1 {
-    margin: 20px auto 0px auto;
     color: #FFE3D8;
-    font-size: 4rem;
     font-family: 'Nerko One', monospace;
+    font-size: 4rem;
+    margin: auto auto auto auto;
+}
+
+h2 {
+    color: #03506F;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 2.5rem;
+}
+
+h3 {
+    color: #03506F;
+    font-family: 'Share Tech Mono', monospace;
 }
 
 p {
     color: #0A043C;
 }
 
-h2 {
-    color: #0A043C;;
-    font-family: 'Share Tech Mono', monospace;
-    font-size: 2.5rem;
-}
-
-h3 {
-    color: #0A043C;
-    font-family: 'Share Tech Mono', monospace;
+hr {
+    clear: both;
+    border-top-style: dotted;
+    border-right-style: none;
+    border-left-style: none;
+    border-bottom-style: none;
+    border-width: 5px;
+    border-color: #BBBBBB; 
+    height: 0px;
+    margin: 100px auto 100px auto;
+    width: 7%;
 }
 
 /* * * * * * * * * * CLASS SHEETS * * * * * * * * * */
 
 .top-container {
     background-color: #03506F;
-    margin-top: 0px;
     margin-left: 0px;
     margin-right: 0px;
-    position: relative;
+    margin-top: 0px;
     padding-top: 100px;
+    position: relative;
 }
 
 .h3-top {
     color: #FFE3D8;
 }
 
-.middle-container {
+.profile-img{
+    height: 200px;
+    margin-top: 30px;
 }
 
 .bottom-container {
@@ -60,31 +77,98 @@ h3 {
 }
 
 .bottom-cloud {
+    display: inline;
     position: absolute;
-    left: 300px;
-    bottom: 280px;
+    margin: auto auto auto auto;
+    right: 65%;
 }
 
 .top-cloud {
+    display: inline;
     position: absolute;
-    right: 300px;
+    margin: auto auto auto auto;
     top: 20px;
+    left: 65%;
 }
 
 .mountain {
+    position: relative;
+    margin: auto;
+    top: 0px;
+}
 
+.projects {
+    margin-bottom: 50px;
 }
 
 .project-row {
+    clear: both;
+    line-height: 1.2;
+    margin: 50px auto auto auto;
+    text-align: left;
+    width: 50%;
+}
+
+.middle-img-left {
+    float: left;
+    margin-right: 30px;
     margin-bottom: 30px;
+    width: 20%;
 }
 
-.middle-img {
-    height: 150px;
-    margin-top: 20px;
+.middle-img-right {
+    float: right;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    width: 20%;
 }
 
+.profile {
+    margin: auto;
+    width: 50%;
+}
+
+.contact-me {
+    margin: auto;
+    width: 50%;
+}
+
+.btn {
+    margin: 30px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-size: 16px;
+    padding: 16px;
+    background-color: #03506F;
+    -webkit-box-shadow: 1px 1px 7px 0 #000000;
+    -moz-box-shadow: 1px 1px 7px 0 #000000;
+    box-shadow: 1px 1px 7px 0 #000000;
+    text-shadow: 1px 1px 20px #000000;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .btn:hover {
+    border: solid #03506F 0;
+    background: #0379A7;
+    background-image: -webkit-linear-gradient(top, #0379A7, #036288);
+    background-image: -moz-linear-gradient(top, #0379A7, #036288);
+    background-image: -ms-linear-gradient(top, #0379A7, #036288);
+    background-image: -o-linear-gradient(top, #0379A7, #036288);
+    background-image: -webkit-gradient(to bottom, #0379A7, #036288);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ }
+
+/*
 .middle-p {
     display: inline-block;
     width: 50%;
 }
+*/
